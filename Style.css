@@ -35,7 +35,11 @@ th, td {
 a:link {
     text-decoration: none;
 	background-color: black;
+	color: brown;
 	font-family: "Times New Roman"
 	
+}
+label {
+	color: brown;
 }
 
