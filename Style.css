@@ -27,6 +27,7 @@ table {
 }
 td {
     text-align: center;
+	color: brown;
 }
 th, td {
 	padding: 15px;
