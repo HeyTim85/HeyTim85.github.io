@@ -2,7 +2,7 @@ h1
 {
 	position: absolute;
 	top: 0px;
-	left: 350px;
+	left: 400px;
 	width: 500px;
 	text-align: center;
 	background-color: black;
@@ -52,7 +52,7 @@ p3
 	position: absolute;
 	top: 300px;
 	left: 200px;
-	width: 50000px;
+	width: 10000px;
 	background-color: black;
 }
 p4
@@ -60,7 +60,7 @@ p4
 		position: absolute;
 		top: 510px;
 		left: 200px;
-		width: 500000px;
+		width: 1000px;
 		background-color: black;
 		color: brown;
 }
@@ -70,7 +70,7 @@ p5
 		position: absolute;
 		top: 510px;
 		left: 412px;
-		width: 500000px;
+		width: 1000px;
 		background-color: black;
 		color: brown;
 }
@@ -80,7 +80,7 @@ p6
 		position: absolute;
 		top: 510px;
 		left: 620px;
-		width: 500000px;
+		width: 1000px;
 		background-color: black;
 		color: brown;
 }
@@ -90,7 +90,7 @@ p7
 		position: absolute;
 		top: 510px;
 		left: 830px;
-		width: 500000px;
+		width: 1000px;
 		background-color: black;
 		color: brown;
 }
@@ -100,7 +100,7 @@ p8
 		position: absolute;
 		top: 510px;
 		left: 1030px;
-		width: 500000px;
+		width: 1000px;
 		background-color: black;
 		color: brown;
 }
@@ -110,7 +110,47 @@ p9
 		position: absolute;
 		top: 510px;
 		left: 200px;
-		width: 500000px;
+		width: 1000px;
+		background-color: black;
+		color: brown;
+}
+
+p10
+{
+		position: absolute;
+		top: 600px;
+		left: 200px;
+		width: 300px
+		background-color: black;
+		color: brown;
+}
+
+p10
+{
+		position: absolute;
+		top: 350px;
+		left: 200px;
+		width: 300px
+		background-color: black;
+		color: brown;
+}
+
+p11
+{
+		position: absolute;
+		top: 395px;
+		left: 650px;
+		width: 300px
+		background-color: black;
+		color: brown;
+}
+
+p12
+{
+		position: absolute;
+		top: 400px;
+		left: 400px;
+		width: 400px
 		background-color: black;
 		color: brown;
 }
