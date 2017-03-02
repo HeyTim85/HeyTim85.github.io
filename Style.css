@@ -118,19 +118,9 @@ p9
 p10
 {
 		position: absolute;
-		top: 600px;
+		top: 450px;
 		left: 200px;
-		width: 300px
-		background-color: black;
-		color: brown;
-}
-
-p10
-{
-		position: absolute;
-		top: 350px;
-		left: 200px;
-		width: 300px
+		width: 10px
 		background-color: black;
 		color: brown;
 }
@@ -138,9 +128,9 @@ p10
 p11
 {
 		position: absolute;
-		top: 395px;
-		left: 650px;
-		width: 300px
+		top: 520px;
+		left: 200px;
+		width: 30px
 		background-color: black;
 		color: brown;
 }
@@ -148,12 +138,43 @@ p11
 p12
 {
 		position: absolute;
-		top: 400px;
+		top: 40px;
+		left: 80px;
+		width: 30px
+		background-color: black;
+		color: brown;
+}
+
+p13
+{
+		position: absolute;
+		top: 100px;
+		left: 80px;
+		width: 10px
+		background-color: black;
+		color: brown;
+}
+
+p14
+{
+		position: absolute;
+		top: -70px;
 		left: 400px;
 		width: 400px
 		background-color: black;
 		color: brown;
 }
+
+p15
+{
+		position: absolute;
+		top: 500px;
+		left: 400px;
+		width: 400px
+		background-color: black;
+		color: brown;
+}
+
 
 body {
 			background-color: black;
