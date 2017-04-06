@@ -205,5 +205,13 @@ label {
 	color: brown;
 }
 
-
+footer{
+	position: absolute;
+		top: 700px;
+		left: 400px;
+		width: 400px
+	color: brown;
+	font-family: "Times New Roman"
+	position: bottom;
+}
 
