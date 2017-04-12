@@ -20,6 +20,48 @@ Block comment
 	<img src="steampunk.png" height ="100" width = "100"/>
 </h3>
 
+<style>
+.dropbtn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+
+.dropbtn:hover, .dropbtn:focus {
+    background-color: #3e8e41;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    overflow: auto;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: red;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown a:hover {background-color: #f1f1f1}
+
+.show {display:block;}
+</style>
+
+
  
 </head>
 
@@ -31,19 +73,43 @@ Block comment
 	Modern Clash offers a wide variety of Men's outifits to help obtain a historic new age look!
 </p1>
 
-	<p2>
-	<a href = index.htm>Home</a></br>
-	</br>
-	<a href = SteampunkWomensPage.htm>Women's Clothing</a></br>
-	</br>
-	<a href = MensSteampunk.htm>Men's Clothing</a></br>
-	</br>
-	<a href = AccesoriesSteampunk.htm>Accessories</a></br>
-	</br>	
-	<a href = ShoesSteampunk.htm>Shoes</a></br>
-	</br>
-	<a href = Contact.htm>Contact Us</a>
+<p2>
+		
+ 
+<div class="dropdown">
+<button onclick="myFunction()" class="dropbtn">Menu</button>
+  <div id="myDropdown" class="dropdown-content">
+    <a href="index.htm">Home</a>
+    <a href="SteampunkWomensPage.htm">Women's Clothing</a>
+    <a href="MensSteampunk.htm">Men's Clothing</a>
+	<a href="AccesoriesSteampunk.htm">Accessories</a>
+    <a href="ShoesSteampunk.htm">Shoes</a>
+    <a href="Contact.htm">Contact</a>
+  </div>
+</div>
 
+<script>
+/* When the user clicks on the button, 
+toggle between hiding and showing the dropdown content */
+function myFunction() {
+    document.getElementById("myDropdown").classList.toggle("show");
+}
+
+// Close the dropdown if the user clicks outside of it
+window.onclick = function(event) {
+  if (!event.target.matches('.dropbtn')) {
+
+    var dropdowns = document.getElementsByClassName("dropdown-content");
+    var i;
+    for (i = 0; i < dropdowns.length; i++) {
+      var openDropdown = dropdowns[i];
+      if (openDropdown.classList.contains('show')) {
+        openDropdown.classList.remove('show');
+      }
+    }
+  }
+}
+</script>
 	
 	
 	</p2>
