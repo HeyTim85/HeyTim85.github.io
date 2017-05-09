@@ -8,20 +8,10 @@ body{
 	padding-right: 0px;
 }
 
-div.header{
-	text-align:center;
-	position:relative;
-	top:0px;
-	left:10px;
-	width:1250px;
-	border-style:none;	
-	padding:0px;
-	color: #00FFFF;
-}
 
 div.racecourse{
 	position:relative;
-	top:250px;
+	top:340px;
 	left:0px;
 	height:210px;
 	border-style:none;
@@ -30,7 +20,7 @@ div.racecourse{
 
 div.startButtons{
 	position:relative;
-	top:-100px;
+	top: 320px;
 	height:50px;
 	width:100%;
 	border-style:none;
@@ -86,6 +76,29 @@ div.winner2disp{
 	z-index: 1;
 }	
 
+h1
+{
+	
+	position: absolute;
+	top: -39px;
+	left: 205px;
+	height: 210px;
+	width: 955px;
+	text-align: center;
+	background-color: #00001a;
+	color: #00FFFF;
+	font-family: "Chalkduster", fantasy;
+	font-size: 90px;
+}
+h2{
+
+	float: left;
+}
+
+h3
+{
+	float: right;
+}
 
 p1{
 	Position: absolute;
@@ -103,7 +116,7 @@ p3{
 	Position: absolute;
 	top: 600px;
 	left: 400px;
-	background-color: black;
+	background-color: #00001a;
 	color: #00FFFF;
 	width: 580px;
 	height: 400px;
