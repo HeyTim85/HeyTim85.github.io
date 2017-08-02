@@ -1,0 +1,75 @@
+h1
+{
+	position: absolute;
+	top: 0px;
+	left: 20px;
+	height: 200px;
+	width: 300px;
+}
+
+h2
+{	
+/*
+time
+*/
+	position: absolute;
+	top: -60px;
+	left: 960px;
+	height: 100px;
+	width: 380px;
+	font-size: 100px;
+	background-color: white;
+}
+
+
+
+
+
+
+
+
+
+body {
+	background-image: url("LamplighterBackground2.jpg");
+	background-size:1400px 850px;
+	background-repeat: no-repeat;
+	background-position: center top;
+	border-style: none;
+	padding-left: 0px;
+	padding-right: 0px;
+
+	
+}
+
+p1
+{
+	/*
+	weather
+	*/
+	
+	position: absolute;
+	top: 20px;
+	left: 20px;
+	width: 500px;
+	
+}
+
+p2{
+	/*
+	news
+	*/
+	position: absolute;
+	top: 450px;
+	left: 300px;
+	background-color: gray;
+	
+}
+
+
+
+
+
+
+
+
+
